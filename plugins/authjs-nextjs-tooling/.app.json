@@ -1,0 +1,12 @@
+{
+  "apps": {
+    "github": {
+      "id": "connector_76869538009648d5b282a4bb21c3d157",
+      "required": false
+    },
+    "notion": {
+      "id": "asdk_app_69c18c28f1188191bf5b8445c4ab0a2e",
+      "required": false
+    }
+  }
+}
