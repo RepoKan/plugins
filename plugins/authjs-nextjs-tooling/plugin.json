@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "authjs-nextjs-tooling",
+  "version": "0.1.0",
+  "description": "Build and review Auth.js authentication in Next.js projects with safe GitHub handoff and Notion knowledge capture.",
+  "author": {
+    "name": "RepoKan"
+  },
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "displayName": "Auth.js Next.js Tooling",
+        "shortDescription": "Build and review Auth.js for Next.js",
+        "longDescription": "Inspect, build, validate, and review Auth.js authentication in Next.js projects, then prepare scoped GitHub handoffs and durable Notion records without exposing secrets.",
+        "developerName": "RepoKan",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Build Auth.js authentication for this Next.js project.",
+          "Review this Auth.js implementation and report risks.",
+          "Prepare a safe GitHub handoff and Notion record for these authentication changes."
+        ]
+      }
+    }
+  }
+}

@@ -838,6 +838,24 @@
       "interface": {
         "displayName": "Qodo"
       }
+    },
+    {
+      "name": "authjs-nextjs-tooling",
+      "source": {
+        "source": "local",
+        "path": "./plugins/authjs-nextjs-tooling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "Auth.js Next.js Tooling"
+      }
     }
   ]
 }
