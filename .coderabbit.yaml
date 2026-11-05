@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# RepoKan public repositories: CodeRabbit may approve low-risk PRs only.
+# AI approval does not replace independent human review, required CI, or owner approval to merge.
+reviews:
+  auto_review:
+    enabled: true
+  auto_approvals:
+    enabled: true
+    allow_author_approval: false
+    max_merge_risk: low
