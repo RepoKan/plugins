@@ -1,0 +1,4 @@
+dist/** linguist-generated
+build/** linguist-generated
+coverage/** linguist-generated
+search/index.json linguist-generated
